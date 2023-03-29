@@ -5,7 +5,7 @@
 
 <!-- /statamic:hide -->
 
-Easily manage and showcase image credits on your website with Asset Collector. This addon helps you collect all assets used on a page, allowing you to display image credits and other information effortlessly. Primarily designed for displaying image credits, Asset Collector can also be used to manage any list of assets on your site.
+Easily manage and showcase image credits on your website with Asset Credit Collector. This addon helps you collect all assets used on a page, allowing you to display image credits and other information effortlessly. Primarily designed for displaying image credits, Asset Collector can also be used to manage any list of assets on your site.
 
 ## Installation
 
