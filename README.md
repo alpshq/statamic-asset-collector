@@ -62,7 +62,7 @@ The tag supports the following parameters which help you filter the assets you n
 Display credits at the end of your page for all images placed on the current page.
 
 ```antlers
-{{ used_assets = {collected_assets:some image="true" svg="true"} }}
+{{ used_assets = { collected_assets:some image="true" svg="true" } }}
 
 {{ if used_assets }}
     <div>
