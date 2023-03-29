@@ -1,0 +1,25 @@
+{
+    "name": "alpshq/statamic-asset-collector",
+    "description": "Collects used assets.",
+    "license": "proprietary",
+    "type": "statamic-addon",
+    "autoload": {
+        "psr-4": {
+            "Alps\\AssetCollector\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Asset Collector",
+            "description": "Collects used assets."
+        },
+        "laravel": {
+            "providers": [
+                "Alps\\AssetCollector\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "statamic/cms": "^3.3"
+    }
+}
