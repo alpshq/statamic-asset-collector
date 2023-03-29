@@ -5,9 +5,7 @@
 
 <!-- /statamic:hide -->
 
-This Addon provides a simple way to gather all the assets you used on the current page. 
-
-The **main usage** is to display **image credits** at the bottom of your page. But you can also do everything what you'd normally do with a list of assets.
+Easily manage and showcase image credits on your website with Asset Collector. This addon helps you collect all assets used on a page, allowing you to display image credits and other information effortlessly. Primarily designed for displaying image credits, Asset Collector can also be used to manage any list of assets on your site.
 
 ## Installation
 
@@ -83,10 +81,33 @@ Display credits at the end of your page for all images placed on the current pag
 {{ /if }}
 ```
 
+### Example: Gallery
+
+Generating a gallery or carousel of images used on the page.
+
+```antlers
+{{ collected_assets:some image="true" }}
+    <!-- Create an image gallery or carousel -->
+    <img src="{{ url }}" alt="{{ alt }}" title="{{ title }}" />
+{{ /collected_assets:some }}
+```
+
+### Example: A List of Downloadable Files
+
+Displaying a list of downloadable files (e.g., PDFs or other documents) used on the page.
+
+```antlers
+<ul>
+    {{ collected_assets:some pdf="true" }}
+        <li><a href="{{ url }}" download>{{ title }}</a></li>
+    {{ /collected_assets:some }}
+</ul>
+```
+
 ## Security
 
 If you encounter any security related issues, please email directly jakub@alps.dev instead of opening an issue. All security related issues will be promptly addressed.
 
 ## License
 
-This is commercial software. You may use the package for your sites. Each site requires it's own license.
+This is commercial software. You may use the package for your sites. Each site requires its own license.
