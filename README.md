@@ -37,13 +37,13 @@ You can get all these assets by using the `collected_assets` tag:
 If you want to get only some of the assets you've used you can use the `collected_assets:some` tag.
 The tag supports the following parameters which help you filter the assets you need:
 
-| Parameter Name | Type   | Default Value | Explanation                            |
-|----------------|--------|---------------|----------------------------------------|
-| `image`        | `bool` | `false`       | Whether or not to included **images**. |
-| `svg`          | `bool` | `false`       | Whether or not to included **SVGs**.   |
-| `video`        | `bool` | `false`       | Whether or not to included **videos**. |
-| `audio`        | `bool` | `false`       | Whether or not to included **audios**. |
-| `pdf`          | `bool` | `false`       | Whether or not to included **PDFs**.   |
+| Parameter Name | Type   | Default Value | Explanation                         |
+|----------------|--------|---------------|-------------------------------------|
+| `image`        | `bool` | `false`       | Whether or not to include **images**. |
+| `svg`          | `bool` | `false`       | Whether or not to include **SVGs**. |
+| `video`        | `bool` | `false`       | Whether or not to include **videos**. |
+| `audio`        | `bool` | `false`       | Whether or not to include **audios**. |
+| `pdf`          | `bool` | `false`       | Whether or not to include **PDFs**. |
 
 #### Example Usage with Filters
 
